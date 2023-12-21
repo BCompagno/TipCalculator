@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tip Calculator</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
@@ -15,7 +15,37 @@
         <h2>Tip Calculator</h2>
         <label for="billAmount">Bill Amount:</label>
         <input type="number" id="billAmount" placeholder="Enter the bill amount">
+        
+        <label for="Guest Amount"> Amount of Guests</label>
+        <form>
+            <select name="Guest Amount">
+            <option value="Guest Amount">1 </option>
+            <option value="Guest Amount">2 </option>
+            <option value="Guest Amount">3 </option>
+            <option value="Guest Amount">4 </option>
+            <option value="Guest Amount">5 </option>
+            <option value="Guest Amount">6 </option>
+            <option value="Guest Amount">7 </option>
+            <option value="Guest Amount">8 </option>
+            <option value="Guest Amount">9 </option>
+            <option value="Guest Amount">10 </option>
 
+        </select>
+        </form>
+                
+        
+        <label for="Quality of Service">Service Quality</label>
+         <br>
+        <form>
+            <select name="Quality of Service">
+            <option value="ServiceQuality">1 - It was poor Service</option>
+            <option value="ServiceQuality">2 - It could've been better</option>
+            <option value="ServiceQuality">3 - It was okay</option>
+            <option value="ServiceQuality">4 - It was Great!</option>
+            <option value="ServiceQuality">5 - The best service in town!</option>
+        </select>
+        </form>
+        <br>
         <label for="tipPercentage">Tip Percentage:</label>
         <input type="number" id="tipPercentage" placeholder="Enter the tip percentage">
 
